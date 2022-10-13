@@ -1,3 +1,33 @@
+/*******************************************
+*  FRBot - Learning FreeRice.com bot
+*  Version: 1.0
+*  Repository: https://github.com/bgough26/free-rice
+*  Updated: October 13, 2022
+*
+*  + Last updated to work with redesigned FreeRice website and to remove JQuery dependency; also added capitals and languages
+*
+*  Works with the following subjects (with some pre-loaded answers): 
+*   - English Vocabulary,
+*   - Chemical Symbols (both), 
+*   - Multiplication table, 
+*   - Identify Countries on the Map,
+*   - Flags of the world
+*   - World Landmarks
+*   - World Capitals
+* 
+*  The following will work, but it will have to learn what's correct as it goes:
+*   - Famous Paintings
+*   - Certain languages: Italian, French, Spanish, German
+* ------------------------------------------
+*
+* # May want to move answer keys out to a separate .js file (that could have issues loading cross-domain though).
+*
+********************************************/
+
+
+
+
+
 function FRBot() {
 
 	this.runDuration = 2.5;  //Set to stop after this amount of time (in hours)
